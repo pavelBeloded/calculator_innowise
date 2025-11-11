@@ -1,4 +1,8 @@
-export const semi = true;
-export const singleQuote = true;
-export const trailingComma = "all";
-export const tabWidth = 2;
+/* eslint-disable no-undef */
+// .prettierrc.js
+module.exports = {
+  semi: true,
+  singleQuote: true,
+  trailingComma: 'all',
+  tabWidth: 2,
+};

@@ -1,3 +1,2 @@
-import "./styles/style.css";
-console.log("Hello world");
-console.log("fef");
+import './styles/style.css';
+console.log('helloewfwefw');
