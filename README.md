@@ -1,7 +1,7 @@
 # Калькулятор на чистом JavaScript
 
 Простой калькулятор, написанный на ванильном JavaScript. Проект собран с использованием Webpack и оснащен современными инструментами для обеспечения качества кода, такими как ESLint, Prettier и Husky.
-
+Production сборка проекта находится в ветке gh-pages
 ---
 
 ### **✨ [Посмотреть живую версию (Live Demo)](https://pavelbeloded.github.io/calculator_innowise/)**
