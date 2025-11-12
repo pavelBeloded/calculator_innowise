@@ -1,2 +1,6 @@
 import './styles/style.css';
-console.log('helloewfwefw');
+import { Calculator } from './js/calculator';
+import { init } from './js/ui';
+
+const calculator = new Calculator();
+init(calculator);
