@@ -6,11 +6,14 @@
     "build:dev": "webpack --env mode=development",
     "build:prod": "webpack --env mode=production",
     "start": "webpack serve --env mode=development",
-    "prepare": "husky"
+    "prepare": "husky",
+    "predeploy": "npm run build:prod",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://pavelBeloded.github.io/calculator_innowise",
   "description": "",
   "devDependencies": {
     "@babel/core": "^7.28.5",
