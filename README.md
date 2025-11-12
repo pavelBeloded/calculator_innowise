@@ -20,7 +20,7 @@
 
 ### **Задание**
 
-Проект выполнен в рамках тестового задания. Ссылка на оригинальный документ с заданием: **[Google Docs]([https://docs.google.com/document/d/1zpXXeSae-BlcxPKgw3DhxZA92cspVailrPYoaXSYrW8/edit?tab=t.0])**
+Проект выполнен в рамках тестового задания. Ссылка на оригинальный документ с заданием: **[Google Docs](https://docs.google.com/document/d/1zpXXeSae-BlcxPKgw3DhxZA92cspVailrPYoaXSYrW8/edit?tab=t.0)**
 
 ---
 
