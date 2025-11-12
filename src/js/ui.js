@@ -20,6 +20,25 @@ export function init(calculator) {
   const changeBtn = document.querySelector('[data-action="changeSign"]');
   const percentBtn = document.querySelector('[data-action="percent"]');
   const equalsBtn = document.querySelector('[data-operation="equals"]');
+  const themeToggle = document.querySelector('#theme-toggle');
+  const body = document.body;
+
+  const savedTheme = localStorage.getItem('theme');
+
+  if (savedTheme === 'light') {
+    body.classList.add('theme-light');
+    themeToggle.checked = true;
+  }
+
+  themeToggle.addEventListener('change', () => {
+    if (themeToggle.checked) {
+      body.classList.add('theme-light');
+      localStorage.setItem('theme', 'light');
+    } else {
+      body.classList.remove('theme-light');
+      localStorage.setItem('theme', 'dark');
+    }
+  });
 
   numberBtns.forEach((button) => {
     button.addEventListener('click', () => {
